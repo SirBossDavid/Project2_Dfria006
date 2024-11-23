@@ -1,4 +1,6 @@
 # Project2_Dfria006
+Team: David Frias-Sanchez 
+NetId: Dfria006
 
 Part 1
 
