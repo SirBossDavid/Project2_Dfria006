@@ -8,20 +8,14 @@ using namespace std;
 
 class Classifier {
 private:
-    vector<Instance> trainingInstances;  
-
-   
-    double EuclideanDistance(const vector<double>& features1, const vector<double>& features2);
+    vector<Instance> trainInstance;  
+    double EuclidDistance(const vector<double>& features1, const vector<double>& features2);
 
 public:
-   
     Classifier();
+    void Train(const vector<Instance>&);
 
-    
-    void Train(const vector<Instance>& trainingData);
-
-    
-    int Test(const Instance& testInstance);  
+    int Test(const Instance&);  
 };
 
 #endif 
