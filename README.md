@@ -14,7 +14,7 @@ Backward Elimination
 Part 2
 Small dataset
 
-![small-data1](https://github.com/user-attachments/assets/aded4cf4-e7f2-4e2a-802b-c2adc3b4095b)
+![small-data1](https://github.com/user-attachments/assets/1c8341c0-b5ef-4309-93ac-c1f5abbebf67)
 
 ![small-data2](https://github.com/user-attachments/assets/498a04fd-63dc-40d8-875c-50d285bb37e1)
 
