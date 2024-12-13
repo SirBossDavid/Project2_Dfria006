@@ -105,9 +105,10 @@ void forwardSelection(Validator& validator, int numFeatures) {
 
         if (bestFeature != -1) {
             currentFeatures.push_back(bestFeature);
+            cout << "\n";
             cout << "Feature set {";
             for (int f : currentFeatures) cout << f << ",";
-            cout << "} was best, accuracy is " << maxAccuracy << "%\n";
+            cout << "} was best, accuracy is " << maxAccuracy << "%\n\n";
         }
     }
 
@@ -152,9 +153,10 @@ void backwardElimination(Validator& validator, int numFeatures) {
                 bestSubset = tempFeatures;
             }
         }
-
+        
         if (worstFeature != -1) {
             currentFeatures.erase(currentFeatures.begin() + worstFeature);
+            cout << "\n";
             cout << "Feature set {";
             for (int f : currentFeatures) cout << f << ",";
             cout << "} was best, accuracy is " << maxAccuracy << "%\n";
