@@ -36,3 +36,7 @@ Small Dataset
 ### Titanic Dataset
 
 ![Titanic-forward](https://github.com/user-attachments/assets/f866863c-69e7-44cd-a146-910badb172b4)
+
+### Final Report (ran out of time)
+Foward selection tended to be a bit faster and got better or equal results to the backward elimination.
+Some difficulties that I had was that the large dataset would be quite time consuming and so testing got a bit annoying there so I mainly stuck with the small dataset.
