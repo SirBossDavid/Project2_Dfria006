@@ -12,7 +12,7 @@ NetId: Dfria006
 -Titanic Dataset Results:
     -Forward:     Feature Subset: {2}      Acc: 78.0112%
     -Backward:    Feature Subset: {2}      Acc: 78.0112%
-
+```
 Part 1
 
 Forward Selection
