@@ -169,7 +169,7 @@ void backwardElimination(Validator& validator, int numFeatures) {
 }
 
 int main() {
-    cout << "Welcome to the Feature Selection Algorithm.\n";
+    cout << "Welcome to David Frias-Sanchez's Feature Selection Algorithm.\n";
 
     cout << "Please enter the path to the dataset file: ";
     string filePath;
