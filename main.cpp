@@ -1,3 +1,17 @@
+/*
+Group: David Frias-Sanchez, Dfria006, Section 1
+Small Dataset Results:
+Forward: 	Feature Subset: {5,3},		Acc: 92%
+Backward: 	Feature Subset: {3,5}, 		Acc: 92%
+Large Dataset Results:
+Forward:	Feature Subset: {1,27}		Acc:95.5%
+Backward: 	Feature Subset: {27}		Acc:84.7%
+Titanic Dataset Results:
+Forward:	Feature Subset: {2}		    Acc: 78.0112%
+Backward:	Feature Subset: {2}		    Acc: 78.0112%
+
+*/
+
 #include <iostream>
 #include <iomanip>
 #include <fstream>
